@@ -1,0 +1,21 @@
+{
+  "name": "futu-api",
+  "version": "6.6.3108",
+  "license": "ISC",
+  "description": "Futu Websocket API for Node.js",
+  "keywords": [
+    "futu",
+    "api",
+    "futu-api",
+    "futuopend"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "long": "^4.0.0",
+    "protobufjs": "^6.8.8",
+	"bytebuffer": "^5.0.1"
+  }
+}
