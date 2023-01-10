@@ -9,7 +9,7 @@
 跟官方的例子一样，可直接拷贝官方的例子运行，唯一的区别是安装的依赖由 `futu-api` 改为 `node-futu-api`
 
 ```javascript
-import ftWebsocket from "futu-api";
+import ftWebsocket from "node-futu-api";
 import beautify from "js-beautify";
 
 function QotGetSecuritySnapshot() {

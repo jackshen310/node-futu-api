@@ -1,7 +1,7 @@
 /*eslint-disable block-scoped-var, id-length, no-control-regex, no-magic-numbers, no-prototype-builtins, no-redeclare, no-shadow, no-var, sort-vars*/
 "use strict";
 
-var $protobuf = require("protobufjs/light");
+import $protobuf from "protobufjs";
 
 var $root = ($protobuf.roots["default"] || ($protobuf.roots["default"] = new $protobuf.Root()))
 .addJSON({
@@ -9812,4 +9812,6 @@ var $root = ($protobuf.roots["default"] || ($protobuf.roots["default"] = new $pr
   }
 });
 
-module.exports = $root;
+// module.exports = $root;
+
+export default $root;
