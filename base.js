@@ -8,6 +8,8 @@ import util from 'util'
 import bytebuffer from 'bytebuffer'
 import protobuf from "protobufjs";
 import protoRoot from "./proto.js";
+import websocket from 'websocket'
+const WebSocket = websocket.w3cwebsocket;
 
 const ftApiCmdID = {
     Init: 1,  //初始化
